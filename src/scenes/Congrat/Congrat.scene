@@ -1,0 +1,112 @@
+{
+    "id": "2909e597-08e1-4639-a456-53b483efa9fe",
+    "sceneType": "SCENE",
+    "settings": {
+        "compilerTabSize": 2,
+        "snapEnabled": true,
+        "exportClass": true,
+        "autoImport": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Congrat",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 1440,
+        "borderHeight": 821
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "02377c74-c328-4db4-b2ba-e628d8b3ef80",
+            "label": "backgroundImage",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "background-03"
+            },
+            "x": 720,
+            "y": 410.5,
+            "scaleX": 1.0595278667395402,
+            "scaleY": 1.0595278667395402,
+            "list": []
+        },
+        {
+            "type": "Text",
+            "id": "67313b50-60c9-4b8e-b3e5-bf89a66db095",
+            "label": "text_1",
+            "components": [],
+            "x": 720,
+            "y": 241.1484375,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "МОЛОДЕЦ!",
+            "fontFamily": "Roboto",
+            "fontSize": "32px",
+            "color": "#293671",
+            "list": []
+        },
+        {
+            "prefabId": "8676c144-b5ce-4a02-aa21-16f97d31cb3f",
+            "id": "e7602f87-98fa-4b4e-9ee7-128cb015317a",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "button",
+            "components": [],
+            "x": 720,
+            "y": 384,
+            "nestedPrefabs": [
+                {
+                    "prefabId": "7dc354b4-d7fc-4f6a-8a24-f4b32187dbe8",
+                    "id": "172d0143-2a21-438d-a81f-92e39ba7572a",
+                    "unlock": [
+                        "text"
+                    ],
+                    "label": "buttonText",
+                    "components": [],
+                    "text": "Начать сначала",
+                    "nestedPrefabs": [],
+                    "list": []
+                },
+                {
+                    "prefabId": "3d581449-b573-4495-8a70-93c903caaeff",
+                    "id": "0947b860-4ccf-4d8f-b50d-df085d9bdc1a",
+                    "label": "onPointerDown",
+                    "components": [],
+                    "nestedPrefabs": [
+                        {
+                            "prefabId": "631d612f-f696-4d49-a4aa-2cd36b48d23f",
+                            "id": "66931cf6-f71c-45b8-a65c-ba93287fede6",
+                            "label": "onPress",
+                            "components": [],
+                            "nestedPrefabs": [],
+                            "list": [
+                                {
+                                    "prefabId": "1a813dbb-a83b-490b-aefa-125da5f77c43",
+                                    "id": "2828f4ef-b599-4630-a088-3598f6f4e17e",
+                                    "unlock": [
+                                        "switchTo"
+                                    ],
+                                    "label": "sceneSwitchScript",
+                                    "switchTo": "Level",
+                                    "components": [],
+                                    "nestedPrefabs": [],
+                                    "list": []
+                                }
+                            ]
+                        }
+                    ],
+                    "list": []
+                }
+            ],
+            "list": []
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

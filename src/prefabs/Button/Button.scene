@@ -1,0 +1,139 @@
+{
+    "id": "8676c144-b5ce-4a02-aa21-16f97d31cb3f",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerTabSize": 2,
+        "snapEnabled": true,
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 1360,
+        "borderHeight": 650
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "f69e5b9b-6903-4db3-82e1-7fcec4fdafad",
+            "label": "container_1",
+            "components": [],
+            "x": 680,
+            "y": 325,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "2ed060bf-503d-48d0-9f7b-9b31c2160169",
+                    "label": "buttonBackground",
+                    "useGameObjectName": true,
+                    "scope": "NESTED_PREFAB",
+                    "components": [],
+                    "isFilled": true,
+                    "width": 288,
+                    "height": 92,
+                    "list": []
+                },
+                {
+                    "type": "Text",
+                    "id": "7dc354b4-d7fc-4f6a-8a24-f4b32187dbe8",
+                    "label": "buttonText",
+                    "useGameObjectName": true,
+                    "scope": "NESTED_PREFAB",
+                    "components": [],
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Sample text",
+                    "fontFamily": "Roboto",
+                    "fontSize": "32px",
+                    "fontStyle": "bold",
+                    "color": "#000000",
+                    "list": []
+                },
+                {
+                    "prefabId": "a06ed60b-79f1-4444-bf35-89046f71f954",
+                    "id": "3d581449-b573-4495-8a70-93c903caaeff",
+                    "label": "onPointerDown",
+                    "scope": "NESTED_PREFAB",
+                    "components": [],
+                    "nestedPrefabs": [],
+                    "list": [
+                        {
+                            "prefabId": "25bcbd45-fc72-4cd0-9eec-3e592d01f749",
+                            "id": "631d612f-f696-4d49-a4aa-2cd36b48d23f",
+                            "unlock": [
+                                "scaleX",
+                                "scaleY",
+                                "scale"
+                            ],
+                            "label": "onPress",
+                            "useGameObjectName": true,
+                            "scope": "NESTED_PREFAB",
+                            "scale": 0.8,
+                            "components": [],
+                            "nestedPrefabs": [],
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "prefabId": "56493c22-7825-4105-985f-e17cb74422ff",
+                    "id": "1a412065-acbb-446c-b498-5e38762fba9b",
+                    "unlock": [
+                        "eventName"
+                    ],
+                    "label": "onPointerOut",
+                    "eventName": "pointerout",
+                    "components": [],
+                    "nestedPrefabs": [],
+                    "list": [
+                        {
+                            "prefabId": "25bcbd45-fc72-4cd0-9eec-3e592d01f749",
+                            "id": "e4ee8b40-0123-4179-954d-a0bda44a59ca",
+                            "unlock": [
+                                "scale"
+                            ],
+                            "label": "scaleActionScript",
+                            "scale": 1,
+                            "components": [],
+                            "nestedPrefabs": [],
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "prefabId": "56493c22-7825-4105-985f-e17cb74422ff",
+                    "id": "9ac9614b-40a7-417a-ac2c-cbe3b34d2675",
+                    "unlock": [
+                        "eventName"
+                    ],
+                    "label": "onPointerOver",
+                    "eventName": "pointerover",
+                    "components": [],
+                    "nestedPrefabs": [],
+                    "list": [
+                        {
+                            "prefabId": "25bcbd45-fc72-4cd0-9eec-3e592d01f749",
+                            "id": "ba811146-07f9-45d4-a54e-bfb7dc8dfaef",
+                            "unlock": [
+                                "scale"
+                            ],
+                            "label": "scaleActionScript_1",
+                            "scale": 1.1,
+                            "components": [],
+                            "nestedPrefabs": [],
+                            "list": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

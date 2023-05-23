@@ -1,0 +1,53 @@
+{
+    "id": "25bcbd45-fc72-4cd0-9eec-3e592d01f749",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerTabSize": 2,
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 1360,
+        "borderHeight": 650
+    },
+    "displayList": [
+        {
+            "type": "ScriptNode",
+            "id": "ccb42784-04f8-49d0-a619-c84c16774372",
+            "label": "scriptnode_1",
+            "components": [],
+            "list": []
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "prefabProperties": [
+        {
+            "name": "yoyo",
+            "label": "Should reverse",
+            "tooltip": "Should the tween complete, then reverse the values incrementally to get back to the starting tween values?",
+            "defValue": false,
+            "customDefinition": false,
+            "type": {
+                "id": "boolean"
+            }
+        },
+        {
+            "name": "scale",
+            "label": "Scale",
+            "tooltip": "Scale value",
+            "defValue": 1,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        }
+    ]
+}

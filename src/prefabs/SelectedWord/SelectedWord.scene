@@ -1,0 +1,118 @@
+{
+    "id": "2d3b6d2d-0abf-457d-a56b-71be5a62eb43",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerEnabled": false,
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "Text",
+            "id": "534799f5-6cdd-4342-8bab-8f2b3796a2c9",
+            "label": "Text",
+            "scope": "PUBLIC",
+            "components": [],
+            "x": 640,
+            "y": 360,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Sample text",
+            "paddingLeft": 9,
+            "paddingTop": 3,
+            "paddingRight": 9,
+            "paddingBottom": 3,
+            "fontFamily": "Roboto",
+            "fontSize": "32px",
+            "fontStyle": "bold",
+            "color": "#654900",
+            "backgroundColor": "#F4D584",
+            "list": []
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "prefabProperties": [
+        {
+            "name": "defaultFillColor",
+            "label": "Default fill color",
+            "tooltip": "Background color in default state",
+            "defValue": "#F4D584",
+            "customDefinition": false,
+            "type": {
+                "id": "color"
+            }
+        },
+        {
+            "name": "defaultTextColor",
+            "label": "Default text color",
+            "tooltip": "Text color in default state",
+            "defValue": "#654900",
+            "customDefinition": false,
+            "type": {
+                "id": "color"
+            }
+        },
+        {
+            "name": "resolvedFillColor",
+            "label": "Resolved fill color",
+            "tooltip": "Background color in resolved state",
+            "defValue": "#8ACB00",
+            "customDefinition": false,
+            "type": {
+                "id": "color"
+            }
+        },
+        {
+            "name": "resolvedTextColor",
+            "label": "Resolved text color",
+            "tooltip": "Text color in resolved state",
+            "defValue": "#ffffff",
+            "customDefinition": false,
+            "type": {
+                "id": "color"
+            }
+        },
+        {
+            "name": "isResolved",
+            "label": "Resolved",
+            "tooltip": "Should be resolved",
+            "defValue": false,
+            "customDefinition": false,
+            "type": {
+                "id": "boolean"
+            }
+        },
+        {
+            "name": "animDuration",
+            "label": "Animation duration",
+            "tooltip": "Animation duration",
+            "defValue": 200,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        },
+        {
+            "name": "isShown",
+            "label": "Shown",
+            "tooltip": "Should be visible",
+            "defValue": true,
+            "customDefinition": false,
+            "type": {
+                "id": "boolean"
+            }
+        }
+    ]
+}

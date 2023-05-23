@@ -1,0 +1,23 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/fonts/font_Roboto_400_normal_swap.ttf",
+                "type": "binary",
+                "key": "font_Roboto_400_normal_swap"
+            },
+            {
+                "url": "assets/fonts/font_Roboto_700_normal_swap.ttf",
+                "type": "binary",
+                "key": "font_Roboto_700_normal_swap"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

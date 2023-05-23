@@ -1,0 +1,163 @@
+{
+    "id": "ea9c264e-4bbd-4b63-b585-e00a8d2a186e",
+    "sceneType": "PREFAB",
+    "settings": {
+        "snapEnabled": true,
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "01d06865-0e3b-438e-83c6-68fa863c4277",
+            "label": "container_1",
+            "components": [],
+            "x": 640,
+            "y": 127.7890625,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "9b749ddb-5817-46b5-aec4-3b3cf967a5e4",
+                    "label": "CongratImage",
+                    "scope": "NESTED_PREFAB",
+                    "components": [],
+                    "texture": {
+                        "key": "checkmark"
+                    },
+                    "y": 180,
+                    "list": []
+                },
+                {
+                    "type": "Text",
+                    "id": "7d2c0cc6-2c21-4a3f-80fe-97781ec88b3a",
+                    "label": "CongratText",
+                    "scope": "NESTED_PREFAB",
+                    "components": [],
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "Выполнено",
+                    "fontFamily": "Roboto",
+                    "fontSize": "32px",
+                    "fontStyle": "bold",
+                    "color": "#293671",
+                    "list": []
+                },
+                {
+                    "type": "Image",
+                    "id": "6b7570f5-b167-4986-9a37-16cfe5c48500",
+                    "label": "NextButton",
+                    "scope": "NESTED_PREFAB",
+                    "components": [],
+                    "texture": {
+                        "key": "next"
+                    },
+                    "y": 431.5,
+                    "list": [
+                        {
+                            "prefabId": "56493c22-7825-4105-985f-e17cb74422ff",
+                            "id": "6d73f52e-dffa-4b76-81ca-a6102ca6cbef",
+                            "unlock": [
+                                "eventName"
+                            ],
+                            "label": "onPointerOver",
+                            "scope": "NESTED_PREFAB",
+                            "eventName": "pointerover",
+                            "components": [],
+                            "nestedPrefabs": [],
+                            "list": [
+                                {
+                                    "prefabId": "25bcbd45-fc72-4cd0-9eec-3e592d01f749",
+                                    "id": "3dc8325a-09a5-47a9-b74c-7c319a70c2a0",
+                                    "unlock": [
+                                        "scale"
+                                    ],
+                                    "label": "scaleActionScript",
+                                    "scale": 1.1,
+                                    "components": [],
+                                    "nestedPrefabs": [],
+                                    "list": []
+                                }
+                            ]
+                        },
+                        {
+                            "prefabId": "56493c22-7825-4105-985f-e17cb74422ff",
+                            "id": "ee24b9b7-f425-492b-9be9-f90ee161349e",
+                            "unlock": [
+                                "eventName"
+                            ],
+                            "label": "onPointerOut",
+                            "scope": "NESTED_PREFAB",
+                            "eventName": "pointerout",
+                            "components": [],
+                            "nestedPrefabs": [],
+                            "list": [
+                                {
+                                    "prefabId": "25bcbd45-fc72-4cd0-9eec-3e592d01f749",
+                                    "id": "7387099d-89e7-4956-9ac1-26c84239e2de",
+                                    "unlock": [
+                                        "scale"
+                                    ],
+                                    "label": "scaleActionScript_1",
+                                    "scale": 1,
+                                    "components": [],
+                                    "nestedPrefabs": [],
+                                    "list": []
+                                }
+                            ]
+                        },
+                        {
+                            "prefabId": "56493c22-7825-4105-985f-e17cb74422ff",
+                            "id": "97c2737d-d626-43af-a236-a4edf695e445",
+                            "unlock": [
+                                "eventName"
+                            ],
+                            "label": "onPointerDown",
+                            "eventName": "pointerdown",
+                            "components": [],
+                            "nestedPrefabs": [],
+                            "list": [
+                                {
+                                    "prefabId": "25bcbd45-fc72-4cd0-9eec-3e592d01f749",
+                                    "id": "fa6be24e-db2a-4c83-8ea4-658d50215449",
+                                    "unlock": [
+                                        "scale"
+                                    ],
+                                    "label": "scaleActionScript_2",
+                                    "scale": 0.8,
+                                    "components": [],
+                                    "nestedPrefabs": [],
+                                    "list": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "prefabProperties": [
+        {
+            "name": "animDuration",
+            "label": "Animation duration",
+            "tooltip": "Animation duration",
+            "defValue": 200,
+            "customDefinition": false,
+            "type": {
+                "id": "number"
+            }
+        }
+    ]
+}

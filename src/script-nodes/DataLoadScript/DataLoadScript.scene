@@ -1,0 +1,42 @@
+{
+    "id": "3c606f24-ca40-4147-bcd4-7e34da007d47",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "ScriptNode",
+            "id": "9be5e160-d087-4270-93c2-e72c6a0c524c",
+            "label": "scriptnode_1",
+            "components": [],
+            "list": []
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "prefabProperties": [
+        {
+            "name": "levelData",
+            "label": "Level data",
+            "tooltip": "Level data in JSON format",
+            "defValue": "",
+            "customDefinition": false,
+            "type": {
+                "id": "asset-key"
+            }
+        }
+    ]
+}

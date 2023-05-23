@@ -1,0 +1,23 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/editor-images/Frame 1.svg",
+                "type": "image",
+                "key": "Frame 1"
+            },
+            {
+                "url": "assets/editor-images/Letter.svg",
+                "type": "image",
+                "key": "Letter"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

@@ -1,0 +1,166 @@
+{
+  "items": [
+    {
+      "backgroundImage": "background-03",
+      "headerTitleText": "Уровень 1",
+      "headerDescriptionText": "Он рычит",
+      "taskText": "Выбери первую букву и веди\nкурсор над остальными",
+      "words": [
+        {
+          "word": "лев",
+          "image": "lion",
+          "cells": [
+            { "x": 0, "y": 0 },
+            { "x": 1, "y": 0 },
+            { "x": 2, "y": 0 }
+          ]
+        }
+      ]
+    },
+    {
+      "backgroundImage": "background-03",
+      "headerTitleText": "Уровень 2",
+      "headerDescriptionText": "Они плавают",
+      "taskText": "Выбери первую букву и веди\nкурсор над остальными",
+      "words": [
+        {
+          "word": "рыба",
+          "image": "fish",
+          "cells": [
+            { "x": 0, "y": 0 },
+            { "x": 1, "y": 0 },
+            { "x": 2, "y": 0 },
+            { "x": 3, "y": 0 }
+          ]
+        },
+        {
+          "word": "кит",
+          "image": "whale",
+          "cells": [
+            { "x": 2, "y": 1 },
+            { "x": 2, "y": 2 },
+            { "x": 2, "y": 3 }
+          ]
+        }
+      ]
+    },
+    {
+      "backgroundImage": "background-03",
+      "headerTitleText": "Уровень 3",
+      "headerDescriptionText": "На голове",
+      "taskText": "Выбери первую букву и веди\nкурсор над остальными",
+      "words": [
+        {
+          "word": "усы",
+          "image": "mustache",
+          "cells": [
+            { "x": 1, "y": 1 },
+            { "x": 1, "y": 2 },
+            { "x": 1, "y": 3 }
+          ]
+        },
+        {
+          "word": "язык",
+          "image": "tongue",
+          "cells": [
+            { "x": 2, "y": 0 },
+            { "x": 2, "y": 1 },
+            { "x": 2, "y": 2 },
+            { "x": 2, "y": 3 }
+          ]
+        },
+        {
+          "word": "глаз",
+          "image": "eye",
+          "cells": [
+            { "x": 0, "y": 4 },
+            { "x": 1, "y": 4 },
+            { "x": 2, "y": 4 },
+            { "x": 3, "y": 4 }
+          ]
+        }
+      ]
+    },
+    {
+      "backgroundImage": "background-03",
+      "headerTitleText": "Уровень 4",
+      "headerDescriptionText": "Съедобное",
+      "taskText": "Выбери первую букву и веди\nкурсор над остальными",
+      "words": [
+        {
+          "word": "гриб",
+          "image": "mushroom",
+          "cells": [
+            { "x": 1, "y": 0 },
+            { "x": 2, "y": 0 },
+            { "x": 2, "y": 1 },
+            { "x": 2, "y": 2 }
+          ]
+        },
+        {
+          "word": "лимон",
+          "image": "lemon",
+          "cells": [
+            { "x": 1, "y": 3 },
+            { "x": 2, "y": 3 },
+            { "x": 3, "y": 3 },
+            { "x": 3, "y": 2 },
+            { "x": 3, "y": 1 }
+          ]
+        },
+        {
+          "word": "арбуз",
+          "image": "watermelon",
+          "cells": [
+            { "x": 0, "y": 2 },
+            { "x": 0, "y": 3 },
+            { "x": 0, "y": 4 },
+            { "x": 1, "y": 4 },
+            { "x": 2, "y": 4 }
+          ]
+        }
+      ]
+    },
+    {
+      "backgroundImage": "background-03",
+      "headerTitleText": "Уровень 5",
+      "headerDescriptionText": "На природе",
+      "taskText": "Выбери первую букву и веди\nкурсор над остальными",
+      "words": [
+        {
+          "word": "радуга",
+          "image": "rainbow",
+          "cells": [
+            { "x": 1, "y": 0 },
+            { "x": 2, "y": 0 },
+            { "x": 2, "y": 1 },
+            { "x": 3, "y": 1 },
+            { "x": 3, "y": 2 },
+            { "x": 3, "y": 3 }
+          ]
+        },
+        {
+          "word": "трава",
+          "image": "grass",
+          "cells": [
+            { "x": 0, "y": 1 },
+            { "x": 0, "y": 2 },
+            { "x": 1, "y": 2 },
+            { "x": 1, "y": 3 },
+            { "x": 2, "y": 3 }
+          ]
+        },
+        {
+          "word": "река",
+          "image": "river",
+          "cells": [
+            { "x": 0, "y": 3 },
+            { "x": 0, "y": 4 },
+            { "x": 1, "y": 4 },
+            { "x": 2, "y": 4 }
+          ]
+        }
+      ]
+    }
+  ]
+}

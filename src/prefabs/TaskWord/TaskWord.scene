@@ -1,0 +1,59 @@
+{
+    "id": "d3f7c645-bc04-4153-9558-00a37c45bbe0",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerEnabled": false,
+        "compilerTabSize": 2,
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "46aa4e22-6598-45c6-85ff-c2a64d12abe1",
+            "label": "frame_1",
+            "components": [],
+            "texture": {
+                "key": "Frame 1"
+            },
+            "x": 640,
+            "y": 360,
+            "list": []
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "prefabProperties": [
+        {
+            "name": "word",
+            "label": "Word",
+            "tooltip": "Word",
+            "defValue": "",
+            "customDefinition": false,
+            "type": {
+                "id": "string"
+            }
+        },
+        {
+            "name": "image",
+            "label": "Image",
+            "tooltip": "Image",
+            "defValue": "",
+            "customDefinition": false,
+            "type": {
+                "id": "asset-key"
+            }
+        }
+    ]
+}

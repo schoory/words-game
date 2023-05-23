@@ -1,0 +1,51 @@
+{
+  "name": "phaser3-webpack-template",
+  "version": "1.0.0",
+  "description": "Phaser 3 project template for Phaser Editor 2D v3",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "webpack serve --mode=development --stats-error-details --node-env development",
+    "build": "webpack --mode=production --node-env production && phaser-asset-pack-hashing -r dist",
+    "editor": "phasereditor2d-launcher -project . -port 1959",
+    "editor-remote": "phasereditor2d-launcher -project . -disable-open-browser -public -port 1959",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --fix --ext js,ts,ts src"
+  },
+  "author": "Phaser Editor 2D <developers@phasereditor2d.com> (https://phasereditor2d.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "phaser": "^3.60.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.59.6",
+    "@typescript-eslint/parser": "^5.59.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^8.1.0",
+    "css-loader": "^6.7.3",
+    "eslint": "^8.40.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "html-webpack-plugin": "^5.3.1",
+    "phaser-asset-pack-hashing": "^1.0.5",
+    "phasereditor2d-launcher": "^3.32.0",
+    "phasereditor2d-roundedrectanglegraphics-plugin": "^1.0.1",
+    "prettier": "^2.8.8",
+    "sass": "^1.62.1",
+    "sass-loader": "^13.2.2",
+    "style-loader": "^3.3.2",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.4",
+    "webpack": "^5.28.0",
+    "webpack-clean-plugin": "^0.2.3",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.4.0"
+  },
+  "phasereditor2d": {
+    "plugins": [
+      "dist"
+    ]
+  }
+}

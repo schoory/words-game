@@ -1,0 +1,44 @@
+{
+    "id": "1a813dbb-a83b-490b-aefa-125da5f77c43",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerTabSize": 2,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 1360,
+        "borderHeight": 650
+    },
+    "displayList": [
+        {
+            "type": "ScriptNode",
+            "id": "e61abdaf-1381-4c21-9158-18d70c71679b",
+            "label": "scriptnode_1",
+            "components": [],
+            "list": []
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    },
+    "prefabProperties": [
+        {
+            "name": "switchTo",
+            "label": "Switch to",
+            "tooltip": "Scene to switch to",
+            "defValue": "Level",
+            "customDefinition": false,
+            "type": {
+                "id": "scene-key"
+            }
+        }
+    ]
+}

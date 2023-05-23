@@ -1,0 +1,61 @@
+{
+    "id": "e3afb9ae-d8ed-4bca-a797-b84a2911a181",
+    "sceneType": "PREFAB",
+    "settings": {
+        "compilerEnabled": false,
+        "snapEnabled": true,
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "c235a20a-9542-40f8-bbcc-83054b912877",
+            "label": "container_1",
+            "components": [],
+            "x": 640,
+            "y": 360,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "469bfbcf-6e2c-4b0c-addf-3efd04c31001",
+                    "label": "PlateBackground",
+                    "scope": "NESTED_PREFAB",
+                    "components": [],
+                    "isFilled": true,
+                    "width": 100,
+                    "height": 100,
+                    "list": []
+                },
+                {
+                    "type": "Text",
+                    "id": "9ffb557c-337c-48d1-91e8-d182d53c1c96",
+                    "label": "PlateLetter",
+                    "scope": "NESTED_PREFAB",
+                    "components": [],
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "L",
+                    "fontFamily": "Roboto",
+                    "fontSize": "54px",
+                    "fontStyle": "bold",
+                    "color": "#293671",
+                    "list": []
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}

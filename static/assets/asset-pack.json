@@ -1,0 +1,133 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/images/back.svg",
+                "type": "image",
+                "key": "back"
+            },
+            {
+                "url": "assets/images/background-01.svg",
+                "type": "image",
+                "key": "background-01"
+            },
+            {
+                "url": "assets/images/background-02.svg",
+                "type": "image",
+                "key": "background-02"
+            },
+            {
+                "url": "assets/images/background-03.svg",
+                "type": "image",
+                "key": "background-03"
+            },
+            {
+                "url": "assets/images/cake.svg",
+                "type": "image",
+                "key": "cake"
+            },
+            {
+                "url": "assets/images/Checkmark.svg",
+                "type": "image",
+                "key": "checkmark"
+            },
+            {
+                "url": "assets/images/clown.svg",
+                "type": "image",
+                "key": "clown"
+            },
+            {
+                "url": "assets/images/eye.svg",
+                "type": "image",
+                "key": "eye"
+            },
+            {
+                "url": "assets/images/fish.svg",
+                "type": "image",
+                "key": "fish"
+            },
+            {
+                "url": "assets/FufuSuperDino.png",
+                "type": "image",
+                "key": "FufuSuperDino"
+            },
+            {
+                "url": "assets/images/grass.svg",
+                "type": "image",
+                "key": "grass"
+            },
+            {
+                "url": "assets/images/help.svg",
+                "type": "image",
+                "key": "help"
+            },
+            {
+                "url": "assets/images/juice.svg",
+                "type": "image",
+                "key": "juice"
+            },
+            {
+                "url": "assets/images/lemon.svg",
+                "type": "image",
+                "key": "lemon"
+            },
+            {
+                "url": "assets/data/level-data.json",
+                "type": "json",
+                "key": "level-data"
+            },
+            {
+                "url": "assets/images/lion.svg",
+                "type": "image",
+                "key": "lion"
+            },
+            {
+                "url": "assets/images/mushroom.svg",
+                "type": "image",
+                "key": "mushroom"
+            },
+            {
+                "url": "assets/images/mustache.svg",
+                "type": "image",
+                "key": "mustache"
+            },
+            {
+                "url": "assets/images/next.svg",
+                "type": "image",
+                "key": "next"
+            },
+            {
+                "url": "assets/images/rainbow.svg",
+                "type": "image",
+                "key": "rainbow"
+            },
+            {
+                "url": "assets/images/river.svg",
+                "type": "image",
+                "key": "river"
+            },
+            {
+                "url": "assets/images/tongue.svg",
+                "type": "image",
+                "key": "tongue"
+            },
+            {
+                "url": "assets/images/watermelon.svg",
+                "type": "image",
+                "key": "watermelon"
+            },
+            {
+                "url": "assets/images/whale.svg",
+                "type": "image",
+                "key": "whale"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

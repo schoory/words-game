@@ -1,0 +1,371 @@
+{
+    "id": "b685c081-ee5f-4b67-b583-415922c9e2c4",
+    "sceneType": "SCENE",
+    "settings": {
+        "snapEnabled": true,
+        "javaScriptInitFieldsInConstructor": true,
+        "exportClass": true,
+        "autoImport": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Level",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 1440,
+        "borderHeight": 821
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "d021d3b1-2272-4b72-82b0-7e0dcb798320",
+            "label": "backgroundImage",
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "background-03"
+            },
+            "x": 720,
+            "y": 410.5,
+            "scaleX": 1.0595278667395402,
+            "scaleY": 1.0595278667395402,
+            "list": []
+        },
+        {
+            "type": "Image",
+            "id": "10c664cc-36f1-47da-bc9d-4e7ef04bc5ae",
+            "label": "backButton",
+            "useGameObjectName": true,
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "back"
+            },
+            "x": 39,
+            "y": 41,
+            "list": [
+                {
+                    "prefabId": "56493c22-7825-4105-985f-e17cb74422ff",
+                    "id": "2f2708d1-ddc2-4bdd-a378-fb9fb9fca4d8",
+                    "unlock": [
+                        "eventName"
+                    ],
+                    "label": "onBackButtonPointerOut",
+                    "eventName": "pointerout",
+                    "components": [],
+                    "nestedPrefabs": [],
+                    "list": [
+                        {
+                            "prefabId": "25bcbd45-fc72-4cd0-9eec-3e592d01f749",
+                            "id": "283086ee-a6ed-4299-a8e1-f1a8c918ef4c",
+                            "unlock": [
+                                "scale"
+                            ],
+                            "label": "scaleActionScript_5",
+                            "scale": 1,
+                            "components": [],
+                            "nestedPrefabs": [],
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "prefabId": "56493c22-7825-4105-985f-e17cb74422ff",
+                    "id": "82ebe05e-c8d9-4757-b348-590d4bfd7d5b",
+                    "unlock": [
+                        "eventName"
+                    ],
+                    "label": "onBackButtonPointerOver",
+                    "eventName": "pointerover",
+                    "components": [],
+                    "nestedPrefabs": [],
+                    "list": [
+                        {
+                            "prefabId": "25bcbd45-fc72-4cd0-9eec-3e592d01f749",
+                            "id": "13c56582-f029-4e2e-a595-08c3b1904b25",
+                            "unlock": [
+                                "scale"
+                            ],
+                            "label": "scaleActionScript_4",
+                            "scale": 1.1,
+                            "components": [],
+                            "nestedPrefabs": [],
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "prefabId": "56493c22-7825-4105-985f-e17cb74422ff",
+                    "id": "a348ab4f-5920-45fa-9f3e-2a6ef33c86b6",
+                    "unlock": [
+                        "eventName"
+                    ],
+                    "label": "onBackButtonPointerDown",
+                    "useGameObjectName": true,
+                    "scope": "CLASS",
+                    "eventName": "pointerdown",
+                    "components": [],
+                    "nestedPrefabs": [],
+                    "list": [
+                        {
+                            "prefabId": "25bcbd45-fc72-4cd0-9eec-3e592d01f749",
+                            "id": "5485567c-a733-4bad-adae-c51351a15d91",
+                            "unlock": [
+                                "yoyo",
+                                "scale"
+                            ],
+                            "label": "scaleActionScript_7",
+                            "yoyo": true,
+                            "scale": 0.8,
+                            "components": [],
+                            "nestedPrefabs": [],
+                            "list": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Image",
+            "id": "668fbc9e-2c0b-47da-972f-3a20631c87c5",
+            "label": "hintButton",
+            "useGameObjectName": true,
+            "scope": "CLASS",
+            "components": [],
+            "texture": {
+                "key": "help"
+            },
+            "x": 1401,
+            "y": 40.5,
+            "list": [
+                {
+                    "prefabId": "56493c22-7825-4105-985f-e17cb74422ff",
+                    "id": "b37b6b41-73c1-4f6b-a553-4c8e179452a6",
+                    "unlock": [
+                        "eventName"
+                    ],
+                    "label": "onHintButtonPointerDown",
+                    "useGameObjectName": true,
+                    "scope": "CLASS",
+                    "eventName": "pointerdown",
+                    "components": [],
+                    "nestedPrefabs": [],
+                    "list": [
+                        {
+                            "prefabId": "25bcbd45-fc72-4cd0-9eec-3e592d01f749",
+                            "id": "82f6118a-db7e-4501-9827-2b2b28156d01",
+                            "unlock": [
+                                "scale",
+                                "yoyo"
+                            ],
+                            "label": "scaleActionScript_6",
+                            "yoyo": true,
+                            "scale": 0.8,
+                            "components": [],
+                            "nestedPrefabs": [],
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "prefabId": "56493c22-7825-4105-985f-e17cb74422ff",
+                    "id": "64b62902-7c3c-4b51-91ad-f56ccbe694a9",
+                    "unlock": [
+                        "eventName"
+                    ],
+                    "label": "onHintButtonPointerOver",
+                    "eventName": "pointerover",
+                    "components": [],
+                    "nestedPrefabs": [],
+                    "list": [
+                        {
+                            "prefabId": "25bcbd45-fc72-4cd0-9eec-3e592d01f749",
+                            "id": "790d8026-8e58-4574-8403-1336926b874b",
+                            "unlock": [
+                                "scale"
+                            ],
+                            "label": "scaleActionScript_3",
+                            "scale": 1.1,
+                            "components": [],
+                            "nestedPrefabs": [],
+                            "list": []
+                        }
+                    ]
+                },
+                {
+                    "prefabId": "56493c22-7825-4105-985f-e17cb74422ff",
+                    "id": "0708f3d9-6701-4d96-bd4c-c80aa9d17ef5",
+                    "unlock": [
+                        "eventName"
+                    ],
+                    "label": "onHintButtonPointerOut",
+                    "eventName": "pointerout",
+                    "components": [],
+                    "nestedPrefabs": [],
+                    "list": [
+                        {
+                            "prefabId": "25bcbd45-fc72-4cd0-9eec-3e592d01f749",
+                            "id": "1b1e2b10-1b4b-47ab-a504-c628a5b4c7ab",
+                            "unlock": [
+                                "scale"
+                            ],
+                            "label": "scaleActionScript_2",
+                            "scale": 1,
+                            "components": [],
+                            "nestedPrefabs": [],
+                            "list": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Text",
+            "id": "9926cd95-05b4-4d04-a966-34672e865b1b",
+            "label": "titleText",
+            "scope": "CLASS",
+            "components": [],
+            "x": 720,
+            "y": 25.7177734375,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Уровень 1",
+            "fontFamily": "Roboto     ",
+            "fontSize": "20px",
+            "fontStyle": "bold",
+            "color": "#000000",
+            "list": []
+        },
+        {
+            "type": "Text",
+            "id": "c0675693-1ee1-4d31-9587-8896116d7a18",
+            "label": "descriptionText",
+            "scope": "CLASS",
+            "components": [],
+            "x": 720,
+            "y": 45,
+            "originX": 0.5,
+            "text": "Найди названия",
+            "fontFamily": "Roboto     ",
+            "fontSize": "24px",
+            "fontStyle": "bold",
+            "color": "#000000",
+            "list": []
+        },
+        {
+            "type": "Container",
+            "id": "a75cba99-792c-49fd-abb5-284b65e40f43",
+            "label": "answersContainer",
+            "scope": "CLASS",
+            "components": [],
+            "x": 720,
+            "y": 160,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "2e27f7c1-45de-476e-9924-4392daec8840",
+                    "label": "answersBackground",
+                    "components": [],
+                    "isFilled": true,
+                    "fillColor": "#000",
+                    "fillAlpha": 0.08,
+                    "width": 398,
+                    "height": 130,
+                    "list": []
+                }
+            ]
+        },
+        {
+            "type": "Text",
+            "id": "af0b1564-d01a-4396-ac3b-42515406af48",
+            "label": "taskText",
+            "scope": "CLASS",
+            "components": [],
+            "x": 720,
+            "y": 256,
+            "originX": 0.5,
+            "text": "Выбери первую букву и веди\nкурсор над остальными",
+            "align": "center",
+            "fontFamily": "Roboto     ",
+            "fontSize": "24px",
+            "fontStyle": "bold",
+            "color": "#000000",
+            "list": []
+        },
+        {
+            "type": "Container",
+            "id": "1e8bc7a7-f4a5-49fd-adc3-a8fd0aae89a7",
+            "label": "plateContainer",
+            "scope": "CLASS",
+            "components": [],
+            "x": 752,
+            "y": 608,
+            "list": [
+                {
+                    "type": "Rectangle",
+                    "id": "26b07039-3037-42bc-8773-40ff430e3624",
+                    "label": "plateContainerFiller",
+                    "scope": "CLASS",
+                    "components": [],
+                    "x": -32,
+                    "width": 400,
+                    "height": 500,
+                    "list": []
+                }
+            ]
+        },
+        {
+            "prefabId": "2d3b6d2d-0abf-457d-a56b-71be5a62eb43",
+            "id": "f750aa81-6939-43f5-99d7-334aa787c061",
+            "unlock": [
+                "x",
+                "y",
+                "isShown"
+            ],
+            "label": "selectedWord",
+            "scope": "PUBLIC",
+            "isShown": false,
+            "components": [],
+            "x": 720,
+            "y": 288,
+            "nestedPrefabs": [],
+            "list": []
+        },
+        {
+            "prefabId": "ea9c264e-4bbd-4b63-b585-e00a8d2a186e",
+            "id": "091cc7c3-df47-4820-8d97-d329f138ad91",
+            "unlock": [
+                "x",
+                "y",
+                "alpha"
+            ],
+            "label": "wordsSectionCongrat",
+            "scope": "CLASS",
+            "components": [],
+            "x": 720,
+            "y": 272,
+            "alpha": 0,
+            "nestedPrefabs": [],
+            "list": []
+        },
+        {
+            "prefabId": "3c606f24-ca40-4147-bcd4-7e34da007d47",
+            "id": "d10df026-3cca-4f0b-abcc-6cd56a3b314f",
+            "unlock": [
+                "levelData"
+            ],
+            "label": "dataLoadScript",
+            "useGameObjectName": true,
+            "scope": "CLASS",
+            "levelData": "level-data",
+            "components": [],
+            "nestedPrefabs": [],
+            "list": []
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 3
+    }
+}
